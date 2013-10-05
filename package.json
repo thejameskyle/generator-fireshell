@@ -1,33 +1,41 @@
 {
-  "name": "fireshell",
-  "title": "Fiercely quick and opinionated front-ends",
-  "url": "http://getfireshell.com",
-  "author": "Todd Motto",
-  "copyright": "2013",
-  "version": "1.1.0",
-  "license": "MIT",
+  "name": "generator-fireshell",
+  "version": "0.0.0",
+  "description": "A generator for Yeoman",
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "homepage": "https://github.com/thejameskyle/generator-fireshell",
+  "bugs": "https://github.com/thejameskyle/generator-fireshell/issues",
+  "author": {
+    "name": "James Kyle",
+    "email": "me@thejameskyle.com",
+    "url": "https://github.com/thejameskyle"
+  },
+  "main": "app/index.js",
   "repository": {
     "type": "git",
-    "url": "http://github.com/toddmotto/fireshell.git"
-  },
-  "devDependencies": {
-    "bower": "~1.2.6",
-    "grunt": "~0.4.1",
-    "grunt-contrib-concat": "~0.3.0",
-    "grunt-contrib-sass": "~0.5.0",
-    "grunt-contrib-uglify": "~0.2.0",
-    "grunt-contrib-connect": "~0.3.0",
-    "grunt-contrib-jshint": "~0.4.3",
-    "grunt-contrib-watch": "~0.4.4",
-    "grunt-bower": "~0.7.0",
-    "grunt-autoprefixer": "~0.3.0",
-    "grunt-contrib-cssmin": "~0.6.2",
-    "grunt-contrib-clean": "~0.5.0",
-    "connect-livereload": "~0.2.0",
-    "grunt-open": "~0.2.0",
-    "matchdep": "~0.1.2"
+    "url": "git://github.com/thejameskyle/generator-fireshell.git"
   },
   "scripts": {
-    "postinstall" : "node_modules/.bin/bower install"
-  }
+    "test": "mocha"
+  },
+  "dependencies": {
+    "yeoman-generator": "~0.13.0"
+  },
+  "devDependencies": {
+    "mocha": "~1.12.0"
+  },
+  "peerDependencies": {
+    "yo": ">=1.0.0-rc.1"
+  },
+  "engines": {
+    "node": ">=0.8.0",
+    "npm": ">=1.2.10"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ]
 }

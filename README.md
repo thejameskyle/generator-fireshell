@@ -1,6 +1,6 @@
-# FireShell [![Build Status](https://travis-ci.org/toddmotto/fireshell.png)](https://travis-ci.org/toddmotto/fireshell)
+# Generator-FireShell [![Build Status](https://travis-ci.org/thejameskyle/generator-fireshell.png)](https://travis-ci.org/thejameskyle/generator-fireshell)
 
-Fiercely quick front-end boilerplate and workflows.
+Fiercely quick front-end boilerplate and workflows for [Yeoman](http://yeoman.io).
 
 The opinionated FireShell framework. Built for the modern developer. For teams and the individual, encouraging a better workflow. JavaScript task running, build processes, autominification and file concatenation, wrapped with an enhanced HTML5 boilerplated framework.
 
@@ -8,14 +8,36 @@ The opinionated FireShell framework. Built for the modern developer. For teams a
 * Homepage: [getfireshell.com](http://getfireshell.com)
 * Twitter: [@getfireshell](http://twitter.com/getfireshell)
 
-## Jump start
+## Getting Started
 
-Get started with FireShell:
+### What is Yeoman?
 
-1. Download the latest stable release from
-   [getfireshell.com](http://getfireshell.com).
-2. Clone the git repo — `git clone
-   https://github.com/toddmotto/fireshell.git` and checkout the tagged release you need
+Trick question. It's not a thing. It's this guy:
+
+![](http://i.imgur.com/JHaAlBJ.png)
+
+Basically, he wears a top hat, lives in your computer, and waits for you to tell him what kind of application you wish to create.
+
+Not every new computer comes with a Yeoman pre-installed. He lives in the [npm](https://npmjs.org) package repository. You only have to ask for him once, then he packs up and moves into your hard drive. *Make sure you clean up, he likes new and shiny things.*
+
+```
+$ npm install -g yo
+```
+
+### Get started with FireShell:
+
+To install generator-fireshell from npm, run:
+
+```
+$ npm install -g generator-fireshell
+```
+
+Finally, initiate the generator:
+
+```
+$ yo fireshell
+```
+
 
 ## Documentation
 
